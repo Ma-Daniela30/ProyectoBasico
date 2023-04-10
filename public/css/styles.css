@@ -1,0 +1,117 @@
+.subir {
+    padding: 9px 12px;
+    color: #555;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    border: 1px solid #ccc;
+}
+
+
+.site-title {
+    text-decoration: none;
+    color: #e6e6e6;
+ }
+ .site-title:hover, .site-title:focus {
+    text-decoration: none;
+    color: #e6e6e6; }
+.subir:hover {
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.ceroM {
+  margin-bottom: 0px !important;
+}
+.bg-cdark{
+    background:#34495E; color:#fff
+}
+
+.bg-cian-dark{
+    background: #172D44;
+}
+
+#loading{
+    z-index:5555;
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+[draggable] {
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+    -ms-user-select: text;
+     /* Required to make elements draggable in old WebKit */ -khtml-user-drag: element; -webkit-user-drag: element; }
+/* Loading Spinner */
+  .spinner{margin:0;width:70px;height:18px;}
+  .spinner > div{ width:18px; height:18px; background-color:#fff; border-radius:100%; display:inline-block; -webkit-animation:bouncedelay 1.4s infinite ease-in-out; animation:bouncedelay 1.4s infinite ease-in-out; -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+  .spinner .bounce1{-webkit-animation-delay:-.32s; animation-delay:-.32s }
+  .spinner .bounce2{-webkit-animation-delay:-.16s; animation-delay:-.16s }
+  @-webkit-keyframes bouncedelay{0%,80%,100%{-webkit-transform:scale(0.0)}40%{-webkit-transform:scale(1.0)}}
+  @keyframes bouncedelay{0%,80%,100%{transform:scale(0.0);
+    -webkit-transform:scale(0.0)}40%{transform:scale(1.0);
+    -webkit-transform:scale(1.0)}}
+
+    @media screen and (max-width:576px) {
+        .quitar_pq{
+            display: none;
+        }
+    }
+@media screen and (max-width:515px) {
+    #tabla thead{
+        display: none;
+    }
+    #tabla tr{
+        margin-bottom: 8px;
+        display: block;
+    }
+    #tabla td{
+        display: block;
+        text-align: right;
+    }
+    #tabla td, #tabla th{
+        font-size: 12px;
+    }
+    #tabla td:last-child{
+        border-bottom: 0px;
+    }
+    #tabla td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
+
+@media screen and (max-width:1228px){
+    #tabla_did thead{
+        display: none;
+    }
+    #tabla_did tr{
+        margin-bottom: 8px;
+        display: block;
+    }
+    #tabla_did td{
+        display: block;
+        text-align: right;
+    }
+    #tabla_did td, #tabla_did th{
+        font-size: 12px;
+    }
+    #tabla_did td:last-child{
+        border-bottom: 0px;
+    }
+    #tabla_did td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
+

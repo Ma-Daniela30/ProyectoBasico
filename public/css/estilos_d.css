@@ -1,0 +1,78 @@
+@media screen and (max-width:920px) {
+    #tabla_rea thead{
+        display: none;
+    }
+    #tabla_rea tr{
+        margin-bottom: 8px;
+        display: block;
+    }
+    #tabla_rea td{
+        display: block;
+        text-align: right;
+    }
+    #tabla_rea td, #tabla_rea th{
+        font-size: 12px;
+    }
+    #tabla_rea td:last-child{
+        border-bottom: 0px;
+    }
+    #tabla_rea td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
+
+@media screen and (max-width:443px) {
+    .tabla_chi thead{
+        display: none;
+    }
+    .tabla_chi tr{
+        margin-bottom: 8px;
+        display: block;
+    }
+    .tabla_chi td{
+        display: block;
+        text-align: right;
+    }
+    .tabla_chi td, .tabla_chi th{
+        font-size: 12px;
+    }
+    .tabla_chi td:last-child{
+        border-bottom: 0px;
+    }
+    .tabla_chi td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
+
+@media screen and (max-width:630px) {
+    #tabla_csiete thead{
+        display: none;
+    }
+    #tabla_csiete tr{
+        margin-bottom: 8px;
+        display: block;
+    }
+    #tabla_csiete td{
+        display: block;
+        text-align: right;
+    }
+    #tabla_csiete td, #tabla_csiete th{
+        font-size: 12px;
+    }
+    #tabla_csiete td:last-child{
+        border-bottom: 0px;
+    }
+    #tabla_csiete td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
+

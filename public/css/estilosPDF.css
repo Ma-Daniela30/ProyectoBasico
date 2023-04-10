@@ -1,0 +1,19 @@
+header{
+    position: fixed;
+    top: 0cm;
+    left:0cm;
+    right: 0cm;
+    height: 2cm;
+    text-align: center;
+    line-height: 30px;
+    background-color: red;
+}
+footer{
+    position: fixed;
+    bottom: 0cm;
+    left:0cm;
+    right: 0cm;
+    height: 2cm;
+    text-align: center;
+    line-height: 35px;
+}
